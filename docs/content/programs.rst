@@ -27,12 +27,12 @@ Running on Aleph.im
 Use the :ref:`cli` to upload your program.
 
 In this example, we will upload the
-`example_fastapi_2 example from Aleph-VM
-<https://github.com/aleph-im/aleph-vm/tree/main/examples/example_fastapi_2>`_.
+`example_fastapi example from Aleph-VM
+<https://github.com/aleph-im/aleph-vm/tree/main/examples/example_fastapi>`_.
 
 .. code-block:: bash
 
-    python3 -m aleph_client program /tmp/aleph-vm/examples/example_fastapi_2 __init__:app
+    python3 -m aleph_client program /tmp/aleph-vm/examples/example_fastapi __init__:app
 
 The command will output two URLs:
 
